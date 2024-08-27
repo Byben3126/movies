@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+  text-decoration: inherit;
+}
+
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+input {
+  outline: none;
+}
+
+input:focus {
+  outline: none;
+}
