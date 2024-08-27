@@ -1,13 +1,13 @@
 
-Requis : \n
-Vesion de node utilisé : 20.8.0 \n
-\n
-Voici comment lancer le projet \n
-npm i \n
-npm run dev \n
-\n
+Requis :
+Vesion de node utilisé : 20.8.0
 
-les depandances \n
-"axios": pour les requests \n
-"flowbite": Pour la mise en page, \n
-"react": Pour le frameWork, \n
+Voici comment lancer le projet
+npm i
+npm run dev
+
+
+les depandances
+"axios": pour les requests
+"flowbite": Pour la mise en page,
+"react": Pour le frameWork,
