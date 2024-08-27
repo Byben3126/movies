@@ -7,7 +7,7 @@ function Movie({movieIdSelect}) {
     const [details, setDetails] = useState({})
     const [reviews, setReviews] = useState([])
     const navigate = useNavigate();
-    
+
     useEffect(()=> {
         if (!movieIdSelect.get) {
             navigate('/')
@@ -36,7 +36,7 @@ function Movie({movieIdSelect}) {
                 <h5 class="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{details.original_title || 'Movie'}</h5>
                 <p class="font-light text-gray-700 dark:text-gray-400">Date de sortie : {details.release_date || ''}</p>
             </div>
-            <p class="font-light text-white dark:text-white"></p>
+            <p class="font-light text-white dark:text-white">{details.overview || 'Description not found'}</p>
            
             <div className="flex flex-col gap-2">
                 <p class="font-light text-lg text-gray-700 dark:text-gray-400">Avis</p>
